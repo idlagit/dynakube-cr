@@ -1,5 +1,5 @@
 apiVersion: v2
-name: dynakube-cr
+name: dynakube_cr
 description: A Helm chart for Dynakube custom resource file.
 
 # A chart can be either an 'application' or a 'library' chart.
