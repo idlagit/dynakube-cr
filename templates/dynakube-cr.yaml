@@ -155,11 +155,10 @@ spec:
     # - metrics-ingest
     # - dynatrace-api
     #
-    #capabilities: [{{ .Values.activeGate.capabilities}}]
     capabilities:
       - routing
-      - kubernetes-monitoring
-      - dynatrace-api
+        kubernetes-monitoring
+        dynatrace-api
 
     # Optional: Sets the image used to deploy ActiveGate instances
     # Defaults to the latest ActiveGate image on the tenant's registry
